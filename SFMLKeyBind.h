@@ -25,7 +25,7 @@ namespace kb
 		{
 			return true;
 		}
-		if (t_key.inputType == MouseInput && t_key.eventType == t_e.type && t_key.keyCode == t_e.mouseButton.button)
+		if (t_key.inputType == MouseInput && t_key.eventType == t_e.type && t_key.mouseButton == t_e.mouseButton.button)
 		{
 			return true;
 		}
